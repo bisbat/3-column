@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url(https://fonts.google.com/specimen/Lexend+Deca);
-@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&family=Itim&family=Lexend+Deca&family=Libre+Baskerville:ital@1&family=Srisakdi:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=IBM+Plex+Sans+Thai+Looped&family=Itim&family=Lexend+Deca&family=Libre+Baskerville:ital@1&family=Srisakdi:wght@400;700&display=swap');

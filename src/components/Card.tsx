@@ -16,9 +16,9 @@ const Card = (category:category) => {
     <div className="w-64">
       <div className="p-14" style={{background:category.color}}>
         <img src={category.icon} alt="" /><br />
-        <h2 className="text-left font-medium text-xl">{category.type.toUpperCase()}</h2><br />
-        <p className="text-left mb-10">{category.description}</p><br />
-        <button className="bg-white px-4 py-2 rounded-lg text-black  "><a href={category.ctaLink} className="">Learn more</a></button>
+        <h2 className="text-left font-bold text-xl font-Shoulders">{category.type.toUpperCase()}</h2><br />
+        <p className="text-left mb-10 font-normal font-Lexend">{category.description}</p><br />
+        <button className="bg-white px-4 py-2 rounded-lg text-black font-Lexend "><a href={category.ctaLink} className="">Learn more</a></button>
         
         
     </div>
